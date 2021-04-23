@@ -3,9 +3,13 @@ This is a simulation of fish schooling as a demonstration of self-organization. 
 
 ## Individual files
 schoolSimulation.m is the main file needed to run the code. 
+
 initializeVariables.m initializes the conditions for the simulation.
+
 neighborDistanceAngle.m calculates the distances and relative angle of orientation between each fish and their neighbors.
+
 frontPriority.m, sidePriority.m, and distancePriority.m are the three different priority methods that can be tested in this simulation. To switch the one being used, appropriately comment and uncomment lines 52-54 in schoolSimulation.m.
+
 polarizationAndExpanse.m asists in the analysis of polarization and expanse for each round of the simulation (Huth & Wissel, 1992).
 
 
